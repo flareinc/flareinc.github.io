@@ -1,0 +1,13 @@
+name: "Flare Blog"
+description: "Flare blog description"
+author: "Flare"
+
+url: "http://flareinc.github.io/flare"
+
+# development url
+# url: "http://localhost:4000"
+
+exclude: [README.md, Rakefile]
+paginate: 16
+permalink: /:title
+pygments: true
