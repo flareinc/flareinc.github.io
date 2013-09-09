@@ -1,13 +1,17 @@
-require "rubygems"
-require 'rake'
-
-desc "Automatically generate site at :4000 for local dev"
-task :dev do
-  system "jekyll serve --watch"
-end # task :dev
-
-desc "Remove _site from directory before committing"
-task :clean do
-  system "rm -rf _site"
-end # task :clean
-
+desc "compile and run the site"
+task :default do
+  pids = [
+    spawn("jekyll server -w"),
+    spawn("scss --watch _assets:stylesheets"),
+    spawn("coffee -b -w -o javascripts -c _assets/*.coffee")
+  ]
+ 
+  trap "INT" do
+    Process.kill "INT", *pids
+    exit 1
+  end
+ 
+  loop do
+    sleep 1
+  end
+end
