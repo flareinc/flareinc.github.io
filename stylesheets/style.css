@@ -81,13 +81,14 @@ header {
 
 footer {
   width: 100%;
+  font-size: 12px;
   max-width: 600px;
   line-height: 2em;
   margin: auto;
   padding-bottom: 30px;
   text-align: center; }
   footer * {
-    color: #797979; }
+    color: #aaaaaa; }
 
 #container {
   *zoom: 1;
