@@ -81,7 +81,8 @@ header {
 
 footer {
   width: 100%;
-  font-size: 12px;
+  font-size: 11px;
+  color: #aaaaaa;
   max-width: 600px;
   line-height: 2em;
   margin: auto;
