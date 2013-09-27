@@ -23,7 +23,12 @@ body {
 	background: -ms-linear-gradient(top,  #9daba7 0%,#c6d1c1 9%,#f9ebcf 91%,#f7e4cf 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #9daba7 0%,#c6d1c1 9%,#f9ebcf 91%,#f7e4cf 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9daba7', endColorstr='#f7e4cf',GradientType=0 ); /* IE6-9 */
+
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
   }
+  
   body, body * {
     -webkit-font-smoothing: antialiased; }
 
