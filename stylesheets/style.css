@@ -79,7 +79,8 @@ img {
 
 .muted {
   color: #8f8f8f;
-  font-size: 0.8rem;}
+  font-size: 0.7rem;
+  text-transform: uppercase; }
 
 .colour-1 {
   color: #cc9944; }
@@ -107,6 +108,7 @@ header {
 
 footer {
   width: 100%;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 11px;
   color: #aaaaaa;
   max-width: 600px;
