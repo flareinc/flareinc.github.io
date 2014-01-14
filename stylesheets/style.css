@@ -78,7 +78,8 @@ img {
   float: right; }
 
 .muted {
-  color: #8f8f8f; }
+  color: #8f8f8f;
+  font-size: 0.8rem;}
 
 .colour-1 {
   color: #cc9944; }
@@ -283,6 +284,7 @@ section.post {
     margin-bottom: 60px; }
     section.post h1 .date {
       color: #d0d0d0;
+      color: #c0c0c0;
       font-size: 10px; }
   section.post iframe {
     width: 100%; }
@@ -294,6 +296,7 @@ section.post {
     border-top-right-radius: 3px; }
 
 section.post, section > p {
+  font-family: 'Helvetica Neue', Helvetica, sans;
   font-size: 14px;
   line-height: 1.6em; }
   section.post *, section > p * {
