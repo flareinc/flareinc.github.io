@@ -80,7 +80,8 @@ img {
 .muted {
   color: #8f8f8f;
   font-size: 0.7rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: 'Technik200', 'Open Sans', sans-serif; }
 
 .colour-1 {
   color: #cc9944; }
