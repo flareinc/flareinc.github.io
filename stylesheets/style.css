@@ -8,14 +8,14 @@ body {
   /* background: #f9f9f9; */
   /* background: linear-gradient(bottom,  #f7e4cf 0%,#f9ebcf 31%,#c6d1c1 91%,#9daba7 100%); */
   color: #303030;
-  font-family: 'Technik200', Comic-sans, 'Open Sans', sans-serif;
+  font-family: 'Technik200', 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 19px;
   padding: 0;
   margin: 0; 
 
-	background: blue;
+	background-color: rgba(222,224,226,1);
 	
     height: 100%;
     background-repeat: no-repeat;
@@ -33,6 +33,14 @@ body {
 	     url('../fonts/Carnoky Type - Technik-200.otf') format('opentype'), /* Modern Browsers */
 	     url('../fonts/Carnoky Type - Technik-200.ttf')  format('truetype'), /* Safari, Android, iOS */
 	}
+@font-face {
+	font-family: 'Technik100';
+	src: url('../fonts/Carnoky Type - Technik-100.otf'); /* IE9 Compat Modes */
+	src: url('../fonts/Carnoky Type - Technik-100.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/Carnoky Type - Technik-100.otf') format('opentype'), /* Modern Browsers */
+	     url('../fonts/Carnoky Type - Technik-100.ttf')  format('truetype'), /* Safari, Android, iOS */
+	}
+	
 	
 img {
   border: none; }
@@ -115,10 +123,10 @@ footer {
   box-sizing: border-box;
   width: 100%;
   max-width: 600px;
-  background: #fff;
+  background: rgba(244,244,244,1);
   margin: 40px auto 20px;
   border-radius: 7px;
-  border: 1px solid #eee;
+  border: 1px solid #bbb;
   position: relative; }
   #container:before, #container:after {
     content: " ";
