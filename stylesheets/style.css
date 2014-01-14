@@ -248,6 +248,7 @@ hr {
   margin: 25px 0; }
 
 ul.posts, ul.posts li {
+  text-transform: uppercase;
   margin: 0;
   padding: 0;
   list-style: none; }
@@ -279,6 +280,7 @@ section.post {
     margin-left: 20px; }
   section.post h1 {
     text-transform: uppercase;
+    font-family: 'Technik200', 'Open Sans', sans-serif;
     text-align: center;
     line-height: 1.5em;
     margin-bottom: 60px; }
