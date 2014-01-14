@@ -1,6 +1,6 @@
 ---
 layout: post
-title: POST TITLE HERE
+title: Post Title Here XXX
 date: 2014-01-14 15:27:31
 published: true
 ---
