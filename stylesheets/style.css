@@ -298,7 +298,7 @@ section.post {
     border-top-right-radius: 3px; }
 
 section.post, section > p {
-  font-family: 'Helvetica Neue', Helvetica, sans;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.6em; }
   section.post *, section > p * {
