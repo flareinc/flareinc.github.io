@@ -15,7 +15,11 @@ body {
   padding: 0;
   margin: 0; 
 
+<<<<<<< HEAD
 	background: orange;
+=======
+	background-color: blue;
+>>>>>>> 7f96dca2c92a084f880e15e6828f453d14952c2a
 	
     height: 100%;
     background-repeat: no-repeat;
